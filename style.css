@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 82px;
+    height: 95px;
+    background-color: #000;
+}
+
+.grow-list {
+    flex-grow: 1;
+}
+
+img {
+    height: 32px;
+    width: 92px;
+}
+
+.line {
+    width: 1px;
+    height: 52px;
+    background-color: #fff;
+    margin: 62px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-style: normal;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 62px;
+    color: #fff;
+}
+
+.logo,
+.list-item {
+    cursor: pointer;
+}
+
+.button-small {
+    padding: 7px 25px;
+    background: violet;
+    border-radius: 6px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main {
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+    background-size: cover;
+    background-attachment: scroll;
+    height: 91vh;
+    text-align: center;
+}
+
+.main-heading {
+    max-width: 850px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 170px;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: center;
+    color: #fff;
+}
+
+.main-description {
+    font-size: 25px;
+    font-weight: 450;
+    font-style: normal;
+    line-height: 50px;
+    color: #fff;
+}
+
+.button-large {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 45px;
+    border-radius: 10px;
+    background: violet;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 14px 22px;
+    margin-top: 60px;
+}
